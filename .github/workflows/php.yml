@@ -1,0 +1,7 @@
+ services:
+  - type: web
+    name: katrina-enterprise
+    env: docker
+    plan: free 
+    # - name: Run test suite
+    #   run: composer run-script test
